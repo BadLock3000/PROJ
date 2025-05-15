@@ -1,0 +1,1271 @@
+2025-02-28T10:54:54.021Z info: Получен запрос на вход для пользователя: 8211586
+2025-02-28T10:54:54.022Z info: Попытка привязки с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-02-28T10:55:15.194Z error: Ошибка привязки LDAP: connect ECONNREFUSED 82.179.184.111:389
+2025-02-28T10:59:17.085Z info: Server is running on port 3000
+2025-02-28T10:59:21.984Z info: Получен запрос на вход для пользователя: 8211586
+2025-02-28T10:59:21.986Z info: Попытка привязки с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-02-28T10:59:43.029Z error: Ошибка привязки LDAP: connect ECONNREFUSED 82.179.184.111:389
+2025-03-05T11:32:12.082Z info: Server is running on port 3000
+2025-03-05T11:32:14.470Z info: Получен запрос на вход для пользователя: 8211586
+2025-03-05T11:32:14.471Z info: Попытка привязки с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-05T11:32:15.036Z info: Успешная привязка с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-05T11:32:15.037Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8211586)","attributes":["sAMAccountName","displayName"]}
+2025-03-05T11:32:15.052Z info: Пользователь 8211586 успешно аутентифицирован
+2025-03-05T11:32:15.052Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Кузнецов Владимир Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8211586"
+    ]
+  }
+]
+2025-03-05T11:32:15.118Z info: Пользователь 8211586 успешно записан в базу данных
+2025-03-05T11:32:45.782Z info: Received request to run test script for lab ID: 1111111111111111 and numberLab: 2
+2025-03-05T11:32:45.940Z info: stdout: Running tests for lab ID: 1111111111111111
+Тест пройден.
+
+2025-03-05T11:32:45.943Z info: child process exited with code 0
+2025-03-05T11:32:45.953Z info: Saving result for username: 8211586, lab_number: 2
+2025-03-05T11:32:45.959Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-05T11:34:58.537Z info: Получен запрос на вход для пользователя: 8212106
+2025-03-05T11:34:58.538Z info: Попытка привязки с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-05T11:34:58.569Z info: Успешная привязка с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-05T11:34:58.569Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212106)","attributes":["sAMAccountName","displayName"]}
+2025-03-05T11:34:58.578Z info: Пользователь 8212106 успешно аутентифицирован
+2025-03-05T11:34:58.578Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Петров Артем Сергеевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212106"
+    ]
+  }
+]
+2025-03-05T11:34:58.590Z info: Пользователь 8212106 успешно записан в базу данных
+2025-03-05T11:41:41.274Z info: Received request to run test script for lab ID: 325465 and numberLab: 2
+2025-03-05T11:41:41.422Z info: stdout: Running tests for lab ID: 325465
+Тест не пройден.
+
+2025-03-05T11:41:41.425Z info: child process exited with code 0
+2025-03-05T11:41:41.446Z info: Saving result for username: 8212106, lab_number: 2
+2025-03-05T11:41:41.453Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-05T11:51:33.199Z info: Получен запрос на вход для пользователя: 8212106
+2025-03-05T11:51:33.200Z info: Попытка привязки с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-05T11:51:33.247Z info: Успешная привязка с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-05T11:51:33.248Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212106)","attributes":["sAMAccountName","displayName"]}
+2025-03-05T11:51:33.260Z info: Пользователь 8212106 успешно аутентифицирован
+2025-03-05T11:51:33.260Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Петров Артем Сергеевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212106"
+    ]
+  }
+]
+2025-03-05T11:51:33.279Z info: Пользователь 8212106 успешно записан в базу данных
+2025-03-05T11:52:12.969Z info: Received request to run test script for lab ID: -10.6667565 and numberLab: 2
+2025-03-05T11:52:13.063Z info: stdout: Running tests for lab ID: -10.6667565
+Тест не пройден.
+
+2025-03-05T11:52:13.064Z info: child process exited with code 0
+2025-03-05T11:52:13.073Z info: Saving result for username: 8212106, lab_number: 2
+2025-03-05T11:52:13.078Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-11T21:13:07.635Z info: Server is running on port 3000
+2025-03-11T21:13:16.996Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-11T21:13:16.997Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:13:17.381Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:13:17.382Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-11T21:13:17.400Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-11T21:13:17.401Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-11T21:13:17.473Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-11T21:23:40.296Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-11T21:23:40.297Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:23:40.325Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:23:40.325Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-11T21:23:40.335Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-11T21:23:40.336Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-11T21:23:40.359Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-11T21:25:41.689Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-11T21:25:41.689Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:25:41.720Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:25:41.720Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-11T21:25:41.742Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-11T21:25:41.742Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-11T21:25:41.751Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-11T21:31:07.410Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-11T21:31:07.411Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:31:07.437Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-11T21:31:07.437Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-11T21:31:07.448Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-11T21:31:07.448Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-11T21:31:07.460Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-11T23:01:11.644Z info: Server is running on port 3000
+2025-03-12T10:34:54.113Z info: Server is running on port 3000
+2025-03-12T13:40:27.131Z info: Server is running on port 3000
+2025-03-13T22:03:40.146Z info: Server is running on port 3000
+2025-03-13T22:07:17.760Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-13T22:07:17.762Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-13T22:07:18.105Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-13T22:07:18.106Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-13T22:07:18.118Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-13T22:07:18.118Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-13T22:07:18.164Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-13T22:07:22.143Z info: Received request to run test script for lab ID: 123 and numberLab: 2
+2025-03-13T22:07:22.241Z info: stdout: Running tests for lab ID: 123
+Тест пройден.
+
+2025-03-13T22:07:22.243Z info: child process exited with code 0
+2025-03-13T22:07:22.245Z info: Saving result for username: 8210264, lab_number: 2
+2025-03-13T22:07:22.249Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-13T22:10:02.893Z error: Invalid input: labId or numberLab is missing
+2025-03-14T12:56:42.332Z info: Server is running on port 3000
+2025-03-14T12:56:50.764Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-14T12:56:50.766Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T12:56:51.222Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T12:56:51.222Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-14T12:56:51.236Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-14T12:56:51.237Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-14T12:56:51.298Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-14T12:58:05.997Z info: Received request to run test script for lab ID: 123 and numberLab: 2
+2025-03-14T12:58:06.158Z info: stdout: Running tests for lab ID: 123
+Тест пройден.
+
+2025-03-14T12:58:06.160Z info: child process exited with code 0
+2025-03-14T12:58:06.169Z info: Saving result for username: 8210264, lab_number: 2
+2025-03-14T12:58:06.176Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-14T13:03:28.743Z info: Received request to run test script for lab ID: 213214 and numberLab: 2
+2025-03-14T13:03:28.849Z info: stdout: Running tests for lab ID: 213214
+Тест пройден.
+
+2025-03-14T13:03:28.851Z info: child process exited with code 0
+2025-03-14T13:03:28.856Z info: Saving result for username: 8210264, lab_number: 2
+2025-03-14T13:03:28.868Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-14T13:06:50.107Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:09:10.806Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:09:15.707Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:09:29.743Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:09:34.674Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:10:57.200Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:11:07.695Z info: Received request to run test script for lab ID: 34 and numberLab: 2
+2025-03-14T13:11:07.841Z info: stdout: Running tests for lab ID: 34
+Тест не пройден.
+
+2025-03-14T13:11:07.843Z info: child process exited with code 0
+2025-03-14T13:11:07.859Z info: Saving result for username: 8210264, lab_number: 2
+2025-03-14T13:11:07.868Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-14T13:11:21.356Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:11:45.092Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:21:12.352Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-14T13:21:12.352Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T13:21:12.379Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T13:21:12.379Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-14T13:21:12.389Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-14T13:21:12.389Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-14T13:21:12.400Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-14T13:23:31.191Z info: Received request to run test script for lab ID: 324234 and numberLab: 2
+2025-03-14T13:23:31.292Z info: stdout: Running tests for lab ID: 324234
+Тест не пройден.
+
+2025-03-14T13:23:31.293Z info: child process exited with code 0
+2025-03-14T13:23:31.298Z info: Saving result for username: 8210264, lab_number: 2
+2025-03-14T13:23:31.302Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-14T13:23:55.198Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:34:19.351Z info: Received request to run test script for lab ID: 43534 and numberLab: 2
+2025-03-14T13:34:19.470Z info: stdout: Running tests for lab ID: 43534
+Тест пройден.
+
+2025-03-14T13:34:19.471Z info: child process exited with code 0
+2025-03-14T13:34:19.479Z info: Saving result for username: 8210264, lab_number: 2
+2025-03-14T13:34:19.489Z info: Результат для лабораторной работы 2 сохранен в базу данных
+2025-03-14T13:34:49.955Z error: Invalid input: labId or numberLab is missing
+2025-03-14T13:39:01.014Z info: Server is running on port 3000
+2025-03-14T13:39:09.980Z info: Received request to run test script for subject: Предмет1
+2025-03-14T13:39:09.980Z info: Running tests for Предмет1, labId: 324, numberLab: 2
+2025-03-14T13:39:10.011Z error: stderr: python: can't open file './scripts/subject1/lab-2.py': [Errno 2] No such file or directory
+
+2025-03-14T13:39:10.013Z info: child process exited with code 2
+2025-03-14T13:39:10.056Z error: Ошибка сохранения результата: column "subject" of relation "lab_results" does not exist
+2025-03-14T13:42:30.295Z info: Server is running on port 3000
+2025-03-14T13:42:31.873Z info: Received request to run test script for subject: Предмет1
+2025-03-14T13:42:31.874Z info: Running tests for Предмет1, labId: 32535, numberLab: 2
+2025-03-14T13:42:32.003Z info: stdout: Running tests for lab ID: 32535
+Тест не пройден.
+
+2025-03-14T13:42:32.004Z info: child process exited with code 0
+2025-03-14T13:42:32.025Z error: Ошибка сохранения результата: column "subject" of relation "lab_results" does not exist
+2025-03-14T13:45:00.882Z info: Server is running on port 3000
+2025-03-14T13:45:55.016Z info: Server is running on port 3000
+2025-03-14T13:46:05.745Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-14T13:46:05.746Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T13:46:06.153Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T13:46:06.153Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-14T13:46:06.167Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-14T13:46:06.168Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-14T13:46:06.251Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-14T13:46:12.044Z info: Received request to run test script for subject: Предмет1
+2025-03-14T13:46:12.044Z info: Running tests for Предмет1, labId: 342, numberLab: 2
+2025-03-14T13:46:12.237Z info: stdout: Running tests for lab ID: 342
+Тест пройден.
+
+2025-03-14T13:46:12.239Z info: child process exited with code 0
+2025-03-14T13:46:12.244Z error: Ошибка сохранения результата: column "subject" of relation "lab_results" does not exist
+2025-03-14T14:06:14.600Z info: Server is running on port 3000
+2025-03-14T14:06:36.331Z info: Получен запрос на вход для пользователя: 8211586
+2025-03-14T14:06:36.335Z info: Попытка привязки с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T14:06:36.915Z info: Успешная привязка с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-14T14:06:36.916Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8211586)","attributes":["sAMAccountName","displayName"]}
+2025-03-14T14:06:36.939Z info: Пользователь 8211586 успешно аутентифицирован
+2025-03-14T14:06:36.940Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Кузнецов Владимир Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8211586"
+    ]
+  }
+]
+2025-03-14T14:06:37.018Z info: Пользователь 8211586 успешно записан в базу данных
+2025-03-14T14:06:51.576Z info: Received request to run test script for subject: Предмет1
+2025-03-14T14:06:51.577Z info: Running tests for Предмет1, labId: 324, numberLab: 2
+2025-03-14T14:06:51.800Z info: stdout: Running tests for lab ID: 324
+Тест пройден.
+
+2025-03-14T14:06:51.802Z info: child process exited with code 0
+2025-03-14T14:06:51.871Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-03-14T14:10:33.319Z info: Received request to run test script for subject: Предмет1
+2025-03-14T14:10:33.319Z info: Running tests for Предмет1, labId: 1, numberLab: 1
+2025-03-14T14:10:33.491Z info: stdout: Running tests for lab ID: 1
+Тест пройден.
+
+2025-03-14T14:10:33.493Z info: child process exited with code 0
+2025-03-14T14:10:33.509Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-03-14T14:10:37.111Z info: Received request to run test script for subject: Предмет1
+2025-03-14T14:10:37.111Z info: Running tests for Предмет1, labId: 3, numberLab: 3
+2025-03-14T14:10:37.287Z info: stdout: Running tests for lab ID: 3
+Тест не пройден.
+
+2025-03-14T14:10:37.288Z info: child process exited with code 0
+2025-03-14T14:10:37.295Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-03-15T13:37:10.061Z info: Server is running on port 3000
+2025-03-15T13:38:03.689Z info: Получен запрос на вход для пользователя: 8211586
+2025-03-15T13:38:03.691Z info: Попытка привязки с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:38:04.087Z info: Успешная привязка с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:38:04.088Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8211586)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:38:04.103Z info: Пользователь 8211586 успешно аутентифицирован
+2025-03-15T13:38:04.104Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Кузнецов Владимир Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8211586"
+    ]
+  }
+]
+2025-03-15T13:38:04.150Z info: Пользователь 8211586 успешно записан в базу данных
+2025-03-15T13:43:39.820Z info: Server is running on port 3000
+2025-03-15T13:43:45.161Z error: Ошибка при получении результатов: syntax error at or near "в"
+2025-03-15T13:43:45.175Z error: Ошибка при получении результатов: syntax error at or near "в"
+2025-03-15T13:46:45.301Z info: Server is running on port 3000
+2025-03-15T13:47:00.041Z info: Получен запрос на вход для пользователя: 8211586
+2025-03-15T13:47:00.043Z info: Попытка привязки с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:47:00.315Z info: Успешная привязка с DN: CN=8211586,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:47:00.316Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8211586)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:47:00.327Z info: Пользователь 8211586 успешно аутентифицирован
+2025-03-15T13:47:00.328Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Кузнецов Владимир Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8211586"
+    ]
+  }
+]
+2025-03-15T13:47:00.378Z info: Пользователь 8211586 успешно записан в базу данных
+2025-03-15T13:47:09.395Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-15T13:47:09.396Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:47:09.431Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:47:09.431Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:47:09.438Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-15T13:47:09.439Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-15T13:47:09.442Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-15T13:47:14.841Z info: Received request to run test script for subject: Предмет1
+2025-03-15T13:47:14.841Z info: Running tests for Предмет1, labId: 324, numberLab: 3
+2025-03-15T13:47:14.976Z info: stdout: Running tests for lab ID: 324
+Тест пройден.
+
+2025-03-15T13:47:14.977Z info: child process exited with code 0
+2025-03-15T13:47:14.994Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-03-15T13:52:12.785Z info: Получен запрос на вход для пользователя: 8212106
+2025-03-15T13:52:12.786Z info: Попытка привязки с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:52:12.811Z info: Успешная привязка с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:52:12.811Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212106)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:52:12.818Z info: Пользователь 8212106 успешно аутентифицирован
+2025-03-15T13:52:12.818Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Петров Артем Сергеевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212106"
+    ]
+  }
+]
+2025-03-15T13:52:12.828Z info: Пользователь 8212106 успешно записан в базу данных
+2025-03-15T13:52:26.790Z info: Received request to run test script for subject: Предмет1
+2025-03-15T13:52:26.790Z info: Running tests for Предмет1, labId: 324, numberLab: 2
+2025-03-15T13:52:26.856Z info: stdout: Running tests for lab ID: 324
+Тест не пройден.
+
+2025-03-15T13:52:26.857Z info: child process exited with code 0
+2025-03-15T13:52:26.867Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-03-15T13:52:29.989Z info: Получен запрос на вход для пользователя: 8212106
+2025-03-15T13:52:29.990Z info: Попытка привязки с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:52:30.012Z info: Успешная привязка с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:52:30.013Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212106)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:52:30.017Z info: Пользователь 8212106 успешно аутентифицирован
+2025-03-15T13:52:30.017Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Петров Артем Сергеевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212106"
+    ]
+  }
+]
+2025-03-15T13:52:30.020Z info: Пользователь 8212106 успешно записан в базу данных
+2025-03-15T13:53:19.251Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-15T13:53:19.251Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:19.272Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:19.272Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:53:19.277Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-15T13:53:19.278Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-15T13:53:19.288Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-15T13:53:25.064Z info: Получен запрос на вход для пользователя: 8212106
+2025-03-15T13:53:25.064Z info: Попытка привязки с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:25.081Z info: Успешная привязка с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:25.081Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212106)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:53:25.088Z info: Пользователь 8212106 успешно аутентифицирован
+2025-03-15T13:53:25.088Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Петров Артем Сергеевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212106"
+    ]
+  }
+]
+2025-03-15T13:53:25.092Z info: Пользователь 8212106 успешно записан в базу данных
+2025-03-15T13:53:30.099Z info: Получен запрос на вход для пользователя: 8212106
+2025-03-15T13:53:30.100Z info: Попытка привязки с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:30.115Z info: Успешная привязка с DN: CN=8212106,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:30.116Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212106)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:53:30.121Z info: Пользователь 8212106 успешно аутентифицирован
+2025-03-15T13:53:30.121Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Петров Артем Сергеевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212106"
+    ]
+  }
+]
+2025-03-15T13:53:30.124Z info: Пользователь 8212106 успешно записан в базу данных
+2025-03-15T13:53:43.622Z info: Получен запрос на вход для пользователя: 8212134
+2025-03-15T13:53:43.622Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:43.638Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:53:43.639Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:53:43.644Z info: Пользователь 8212134 успешно аутентифицирован
+2025-03-15T13:53:43.644Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-03-15T13:53:43.653Z info: Пользователь 8212134 успешно записан в базу данных
+2025-03-15T13:54:20.739Z info: Получен запрос на вход для пользователя: 8212134
+2025-03-15T13:54:20.740Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:20.987Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:20.988Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:54:21.065Z info: Пользователь 8212134 успешно аутентифицирован
+2025-03-15T13:54:21.065Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-03-15T13:54:21.072Z info: Пользователь 8212134 успешно записан в базу данных
+2025-03-15T13:54:25.147Z info: Получен запрос на вход для пользователя: 8212134
+2025-03-15T13:54:25.147Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:25.174Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:25.175Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:54:25.180Z info: Пользователь 8212134 успешно аутентифицирован
+2025-03-15T13:54:25.181Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-03-15T13:54:25.183Z info: Пользователь 8212134 успешно записан в базу данных
+2025-03-15T13:54:48.096Z info: Получен запрос на вход для пользователя: 8212134
+2025-03-15T13:54:48.096Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:48.113Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:48.113Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:54:48.121Z info: Пользователь 8212134 успешно аутентифицирован
+2025-03-15T13:54:48.121Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-03-15T13:54:48.129Z info: Пользователь 8212134 успешно записан в базу данных
+2025-03-15T13:54:54.711Z info: Получен запрос на вход для пользователя: 8212134
+2025-03-15T13:54:54.712Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:54.745Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-15T13:54:54.746Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-03-15T13:54:54.751Z info: Пользователь 8212134 успешно аутентифицирован
+2025-03-15T13:54:54.751Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-03-15T13:54:54.753Z info: Пользователь 8212134 успешно записан в базу данных
+2025-03-17T15:49:13.730Z info: Server is running on port 3000
+2025-03-17T15:49:16.593Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-17T15:49:16.594Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-17T15:49:16.944Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-17T15:49:16.944Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-17T15:49:16.959Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-17T15:49:16.960Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-17T15:49:17.014Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-17T16:51:12.160Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-17T16:51:12.172Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-17T16:51:12.246Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-17T16:51:12.246Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-17T16:51:12.261Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-17T16:51:12.262Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-17T16:51:12.283Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-17T17:46:43.407Z info: Server is running on port 3000
+2025-03-17T17:57:41.200Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-17T17:57:41.201Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-17T17:57:41.442Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-17T17:57:41.443Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-17T17:57:41.456Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-17T17:57:41.457Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-17T17:57:41.468Z info: Пользователь 8210264 успешно записан в базу данных
+2025-03-21T17:12:25.044Z info: Server is running on port 3000
+2025-03-21T17:13:21.584Z info: Получен запрос на вход для пользователя: 8210264
+2025-03-21T17:13:21.585Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-21T17:13:21.868Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-03-21T17:13:21.869Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-03-21T17:13:21.880Z info: Пользователь 8210264 успешно аутентифицирован
+2025-03-21T17:13:21.881Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-03-21T17:13:21.899Z info: Пользователь 8210264 успешно записан в базу данных
+2025-04-03T19:58:35.117Z info: Server is running on port 3000
+2025-04-03T19:59:31.293Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-03T19:59:31.294Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T19:59:31.484Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T19:59:31.484Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-03T19:59:31.498Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-03T19:59:31.499Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-03T19:59:31.575Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-03T20:02:04.339Z info: Server is running on port 3000
+2025-04-03T20:02:28.478Z info: Received request to run test script for subject: Предмет2
+2025-04-03T20:02:28.478Z info: Running tests for Предмет2, numberLab: 2
+2025-04-03T20:02:28.478Z error: Error running tests: fs is not defined
+2025-04-03T20:02:50.890Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-03T20:02:50.892Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:02:51.066Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:02:51.066Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-03T20:02:51.079Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-03T20:02:51.080Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-03T20:02:51.127Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-03T20:03:05.677Z info: Получен запрос на вход для пользователя: admin
+2025-04-03T20:03:05.678Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:03:05.697Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-03T20:03:07.086Z info: Получен запрос на вход для пользователя: admin
+2025-04-03T20:03:07.086Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:03:07.107Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-03T20:03:07.597Z info: Получен запрос на вход для пользователя: admin
+2025-04-03T20:03:07.597Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:03:07.619Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-03T20:03:07.741Z info: Получен запрос на вход для пользователя: admin
+2025-04-03T20:03:07.741Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:03:07.757Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-03T20:03:11.342Z info: Получен запрос на вход для пользователя: admin
+2025-04-03T20:03:11.343Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:03:11.429Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-03T20:03:57.563Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:03:59.557Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:04:01.958Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:05:44.976Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-03T20:05:44.977Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:05:45.000Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:05:45.001Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-03T20:05:45.010Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-03T20:05:45.011Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-03T20:05:45.028Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-03T20:06:10.639Z info: Received request to run test script for subject: Предмет2
+2025-04-03T20:06:10.639Z info: Running tests for Предмет2, numberLab: 2
+2025-04-03T20:06:10.639Z error: Error running tests: fs is not defined
+2025-04-03T20:06:11.154Z info: Received request to run test script for subject: Предмет2
+2025-04-03T20:06:11.154Z info: Running tests for Предмет2, numberLab: 2
+2025-04-03T20:06:11.154Z error: Error running tests: fs is not defined
+2025-04-03T20:06:24.177Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:06:29.883Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:06:36.795Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:06:37.331Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-03T20:14:07.178Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-03T20:14:07.178Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:14:07.360Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-03T20:14:07.360Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-03T20:14:07.430Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-03T20:14:07.430Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-03T20:14:07.453Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T08:06:40.227Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T08:06:40.228Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:06:40.253Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:06:40.254Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T08:06:40.258Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T08:06:40.259Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T08:06:40.274Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T08:31:15.335Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:15.335Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:15.371Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:15.794Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:15.794Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:15.813Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:17.486Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:17.486Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:17.503Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:20.476Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:20.476Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:20.488Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:21.861Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:21.861Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:21.879Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:22.157Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:22.157Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:22.168Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:22.334Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:22.334Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:22.345Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:22.485Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:22.485Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:22.504Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:22.653Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:22.653Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:22.671Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:22.820Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:22.820Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:22.848Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:25.109Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:25.109Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:25.144Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:25.260Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:25.261Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:25.273Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:25.437Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:25.437Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:25.452Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:25.607Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:25.607Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:25.623Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:25.757Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:25.757Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:25.781Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:25.916Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:25.917Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:25.954Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:26.093Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:26.093Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:26.114Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:26.253Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:26.253Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:26.270Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:26.436Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:26.437Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:26.462Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:26.614Z info: Получен запрос на вход для пользователя: admin
+2025-04-04T08:31:26.614Z info: Попытка привязки с DN: CN=admin,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T08:31:26.635Z error: Ошибка привязки LDAP: Invalid Credentials
+2025-04-04T08:31:30.726Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:31:35.050Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:31:35.810Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:31:36.256Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:34:39.442Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:34:40.180Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:34:41.488Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:34:52.010Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:35:42.237Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T08:35:43.155Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:03:44.298Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:03:56.255Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:04:10.554Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T09:04:10.555Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:04:12.440Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T09:04:12.440Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:04:19.086Z error: Ошибка привязки LDAP: 
+2025-04-04T09:05:30.669Z info: Server is running on port 3000
+2025-04-04T09:05:36.356Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T09:05:36.358Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:05:36.544Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:05:36.545Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T09:05:36.550Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T09:05:36.551Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:05:36.556Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T09:05:36.556Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T09:05:36.599Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:05:36.599Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T09:05:36.612Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T09:05:36.626Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T09:05:36.627Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T09:05:36.633Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T09:05:50.221Z info: Received request to run test script for subject: Предмет1
+2025-04-04T09:05:50.222Z info: Running tests for Предмет1, labId: -11, numberLab: 1
+2025-04-04T09:05:50.229Z error: Failed to start subprocess: spawn python ENOENT
+2025-04-04T09:05:50.232Z info: child process exited with code -2
+2025-04-04T09:05:50.275Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-04-04T09:12:40.732Z info: Server is running on port 3000
+2025-04-04T09:12:50.177Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:12:52.232Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:12:57.445Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:12:58.195Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T09:13:15.566Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T09:13:15.568Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:13:15.738Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T09:13:15.739Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T09:13:15.751Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T09:13:15.752Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T09:13:15.790Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T09:13:20.648Z info: Received request to run test script for subject: Предмет1
+2025-04-04T09:13:20.648Z info: Running tests for Предмет1, labId: -3, numberLab: 1
+2025-04-04T09:13:20.654Z error: Failed to start subprocess: spawn python ENOENT
+2025-04-04T09:13:20.656Z info: child process exited with code -2
+2025-04-04T09:13:20.689Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-04-04T12:45:50.237Z info: Server is running on port 3000
+2025-04-04T12:46:41.023Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T12:46:41.026Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T12:46:41.381Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T12:46:41.382Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T12:46:41.401Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T12:46:41.401Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T12:46:41.466Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T12:51:51.885Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T12:51:51.886Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T12:51:51.907Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T12:51:51.908Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T12:51:51.922Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T12:51:51.922Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T12:51:51.942Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T12:52:18.097Z info: Received request to run test script for subject: Предмет1
+2025-04-04T12:52:18.098Z info: Running tests for Предмет1, labId: 00101031401491304314314143434, numberLab: 3
+2025-04-04T12:52:18.117Z error: Failed to start subprocess: spawn python ENOENT
+2025-04-04T12:52:18.122Z info: child process exited with code -2
+2025-04-04T12:52:18.161Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-04-04T14:23:00.758Z info: Server is running on port 3000
+2025-04-04T14:23:41.556Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:23:45.709Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:23:47.005Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:23:47.913Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:24:11.967Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:24:11.978Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:24:12.451Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:24:12.451Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T14:24:12.509Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T14:24:12.510Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T14:24:12.631Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T14:24:55.386Z info: Received request to run test script for subject: Предмет1
+2025-04-04T14:24:55.386Z info: Running tests for Предмет1, labId: 1111111, numberLab: 1
+2025-04-04T14:24:55.404Z error: Failed to start subprocess: spawn python ENOENT
+2025-04-04T14:24:55.413Z info: child process exited with code -2
+2025-04-04T14:24:55.466Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-04-04T14:42:06.178Z info: Server is running on port 3000
+2025-04-04T14:42:07.268Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:42:21.598Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:42:21.601Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:42:22.310Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:42:22.310Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T14:42:22.372Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-04T14:42:22.373Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-04T14:42:22.436Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-04T14:42:31.663Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:47:50.156Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:47:51.328Z error: Ошибка при получении результатов: relation "lab_results" does not exist
+2025-04-04T14:48:09.160Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:48:09.161Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:48:10.425Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:48:10.425Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:48:30.739Z error: Ошибка привязки LDAP: 
+2025-04-04T14:49:23.075Z info: Server is running on port 3000
+2025-04-04T14:49:30.042Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:30.043Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:30.773Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:30.774Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:44.215Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:44.217Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:44.900Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:44.900Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:45.191Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:45.192Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:45.339Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:45.340Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:45.479Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-04T14:49:45.480Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:49:51.606Z error: Ошибка привязки LDAP: 
+2025-04-04T14:55:34.104Z info: Server is running on port 3000
+2025-04-04T14:55:53.496Z info: Получен запрос на вход для пользователя: 8210264
+2025-04-04T14:55:53.500Z info: Попытка привязки с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:55:54.105Z info: Успешная привязка с DN: CN=8210264,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-04T14:55:54.106Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8210264)","attributes":["sAMAccountName","displayName"]}
+2025-04-04T14:55:54.157Z info: Пользователь 8210264 успешно аутентифицирован
+2025-04-04T14:55:54.157Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Юрков Игорь Михайлович"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8210264"
+    ]
+  }
+]
+2025-04-04T14:55:54.238Z info: Пользователь 8210264 успешно записан в базу данных
+2025-04-04T14:56:03.853Z info: Received request to run test script for subject: Предмет1
+2025-04-04T14:56:03.854Z info: Running tests for Предмет1, labId: 52478579547952497, numberLab: 1
+2025-04-04T14:56:03.871Z error: Failed to start subprocess: spawn python ENOENT
+2025-04-04T14:56:03.876Z info: child process exited with code -2
+2025-04-04T14:56:03.901Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-04-07T16:07:39.139Z info: Server is running on port 3000
+2025-04-07T16:07:41.353Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:41.359Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:41.388Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:41.388Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:52.721Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:52.722Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:53.734Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:53.734Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:54.346Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:54.348Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:54.484Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:54.485Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:54.637Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:54.638Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:07:54.866Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:07:54.867Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:08:02.994Z error: Ошибка привязки LDAP: 
+2025-04-07T16:12:30.046Z info: Server is running on port 3000
+2025-04-07T16:13:54.861Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:13:54.865Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:13:55.174Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:13:55.175Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:13:55.320Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:13:55.321Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:13:55.510Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:13:55.511Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:14:05.956Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:14:05.957Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:14:06.220Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T16:14:06.221Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T16:14:13.311Z error: Ошибка привязки LDAP: 
+2025-04-07T21:44:38.773Z info: Server is running on port 3000
+2025-04-07T21:44:43.858Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T21:44:43.860Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T21:44:44.079Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T21:44:44.079Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-07T21:44:44.092Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-07T21:44:44.094Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-07T21:44:44.181Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-07T21:45:21.855Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-07T21:45:21.856Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T21:45:21.878Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-07T21:45:21.878Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-07T21:45:21.896Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-07T21:45:21.897Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-07T21:45:21.916Z info: Пользователь 8212134 успешно записан в базу данных
+2025-04-07T21:45:28.010Z info: Received request to run test script for subject: Предмет1
+2025-04-07T21:45:28.010Z info: Running tests for Предмет1, labId: 4, numberLab: 2
+2025-04-07T21:45:28.018Z error: Failed to start subprocess: spawn python ENOENT
+2025-04-07T21:45:28.021Z info: child process exited with code -2
+2025-04-07T21:45:28.042Z info: Результат для предмета Предмет1 сохранен в базу данных
+2025-04-07T21:46:38.299Z info: Server is running on port 3000
+2025-04-08T06:06:44.714Z info: Server is running on port 3000
+2025-04-08T06:31:46.213Z info: Server is running on port 3000
+2025-04-08T06:31:50.577Z info: Получен запрос на вход для пользователя: 8212134
+2025-04-08T06:31:50.585Z info: Попытка привязки с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-08T06:31:51.388Z info: Успешная привязка с DN: CN=8212134,OU=Students,OU=MIET,DC=sipc,DC=miet,DC=ru
+2025-04-08T06:31:51.388Z info: Поиск с опциями: {"scope":"sub","filter":"(sAMAccountName=8212134)","attributes":["sAMAccountName","displayName"]}
+2025-04-08T06:31:51.451Z info: Пользователь 8212134 успешно аутентифицирован
+2025-04-08T06:31:51.452Z info: Атрибуты записи LDAP: [
+  {
+    "type": "displayName",
+    "values": [
+      "Фалеев Артём Андреевич"
+    ]
+  },
+  {
+    "type": "sAMAccountName",
+    "values": [
+      "8212134"
+    ]
+  }
+]
+2025-04-08T06:31:51.514Z info: Пользователь 8212134 успешно записан в базу данных

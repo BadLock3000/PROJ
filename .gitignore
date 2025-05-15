@@ -1,0 +1,24 @@
+# /package-lock.json
+/node_modules
+/backend/src/db.js
+/Makefile
+/dist
+dist
+# /models
+# /migrations
+# /seeders
+# /config
+/migrations-app/node_modules
+/backend/src/Wildberries/db.js
+/backend/src/Wildberries/reportSources
+/documents/node_modules
+/documents/package-lock.json
+/documents/Makefile
+backend/src/db.js
+migrations-app/config/credentials.js
+/db.sql
+logs
+package-lock.json
+
+backend/src/photos/*
+!backend/src/photos/.gitkeep
